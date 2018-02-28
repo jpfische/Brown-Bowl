@@ -1,0 +1,83 @@
+/* Start Draft Order */
+
+th {
+  background-color: #ccccb3;
+}
+
+tr:nth-child(odd) {
+  background-color: #d1d1e0;
+}
+
+.legend {
+  text-align: right;
+  padding-top: 10px;
+  font-size: .75em;
+}
+
+/* End Draft Order */
+
+/* Start Keepers */
+
+h4 {
+  text-decoration: underline;
+}
+
+/* End Keepers */
+
+/* Start Draft Day Trades */
+
+/* End Draft Day Trades */
+
+/* Start Media Queries */
+
+/* Cell Phones*/
+
+@media (min-width: 300px) {
+
+h4 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+}
+
+/* End Cell Phones */
+
+/* Tablet */
+
+@media (min-width: 768px) {
+
+.keepers {
+  margin-right: 10px;
+}
+
+.draft-trades {
+  margin-left: 10px;
+}
+
+}
+
+/* End Tablet */
+
+/* Desktop */
+
+@media (min-width: 1025px) {
+
+/* Start Keepers */
+
+h4 {
+  text-align: left;
+}
+
+.keepers1,
+.keepers2,
+.keepers3,
+.keepers4 {
+  column-count: 3;
+}
+
+/* End Keepers */
+
+}
+
+/* End Desktop */
