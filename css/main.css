@@ -15,7 +15,8 @@ body {
 h1,
 h2 {
   text-align: center;
-  padding-bottom: 10px;
+  padding: 15px;
+  padding-bottom: 25px;
 }
 
 table {
@@ -122,9 +123,24 @@ td {
 
 /* Start Recap */
 
+.recap h5 {
+  padding: 10px;
+}
+
 button {
   margin: auto;
   display: block;
+}
+
+.keepers-2017 {
+  text-align: center;
+  column-rule-style: solid;
+  column-rule-color: #ebebe0;
+}
+
+.keepers-2017 ul {
+  list-style-type: none;
+  padding-left: 0;
 }
 
 /* End Recap */
@@ -181,6 +197,11 @@ button {
     display: block;
     text-align: left;
   }
+
+  .keepers-2017 {
+    column-count: 2;
+  }
+
 }
 
 /* End Cell Phone */
@@ -220,6 +241,10 @@ button {
 
 .notes {
   margin-left: 10px;
+}
+
+.keepers-2017 {
+  column-count: 4;
 }
 
 }

@@ -1,0 +1,131 @@
+/* Page Styles  */
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table {
+  width: 100%;
+  border-spacing: 5px;
+}
+
+th {
+  font-size: 1.5em;
+  padding: 5px;
+  width: 115px;
+}
+
+th:nth-child(even) {
+  background-color: black;
+  color: white;
+}
+
+tr {
+  font-size: .75em;
+}
+
+td {
+  white-space: nowrap;
+}
+
+.blank-cell {
+  background-color: black;
+}
+
+.draft-board-2017,
+.draft-board-2018 {
+  overflow-x:auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px 2px #888888;
+}
+
+sup {
+  color: white;
+}
+
+.trade {
+  /* border: 2px solid yellow; */
+}
+
+.keeper {
+  color: white;
+}
+
+.qb {
+  background-color: #80ff80;
+
+}
+
+.rb {
+  background-color: #ff9999;
+}
+
+.wr {
+  background-color: #80b3ff;
+
+}
+
+.te {
+  background-color: #c299ff;
+
+}
+
+.dst {
+  background-color: #ffff80;
+
+}
+
+.k {
+  background-color: #ffbf80;
+}
+
+/* Start Draft Board 2017  */
+
+.draft-board-2017 {
+  padding: 15px;
+  margin-bottom: 50px;
+}
+
+/* End Draft Board 2017  */
+
+/* Start Draft Board 2018  */
+
+.draft-board-2018 {
+  padding: 15px;
+}
+
+.draft-board-2018 td:nth-child(n+2) {
+  background-color: #c2d6d6;
+}
+
+/* End Draft Board 2018  */
+
+/* Start Media Queries */
+
+/* Cell Phones*/
+
+@media (min-width: 300px) {
+
+}
+
+/* End Cell Phones */
+
+/* Tablet */
+
+@media (min-width: 768px) {
+
+}
+
+/* End Tablet */
+
+/* Desktop */
+
+@media (min-width: 1025px) {
+
+}
+
+/* End Desktop */
