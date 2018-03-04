@@ -1,4 +1,5 @@
 /* Page Styles  */
+
 table, th, td {
     border: 1px solid black;
     padding: 5px;
@@ -100,6 +101,46 @@ sup {
 
 .draft-board-2018 td:nth-child(n+2) {
   background-color: #c2d6d6;
+}
+
+sup {
+  color: white;
+}
+
+.trade {
+  /* border: 2px solid yellow; */
+}
+
+.keeper {
+  color: white;
+}
+
+.qb {
+  background-color: #80ff80;
+
+}
+
+.rb {
+  background-color: #ff9999;
+}
+
+.wr {
+  background-color: #80b3ff;
+
+}
+
+.te {
+  background-color: #c299ff;
+
+}
+
+.dst {
+  background-color: #ffff80;
+
+}
+
+.k {
+  background-color: #ffbf80;
 }
 
 /* End Draft Board 2018  */
