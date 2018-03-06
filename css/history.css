@@ -1,0 +1,55 @@
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 25px;
+}
+
+th {
+  background-color: #ccccb3;
+}
+
+tr:nth-child(odd) {
+  background-color: #d1d1e0;
+}
+
+@media (min-width: 300px) {
+
+}
+
+/* End Cell Phones */
+
+/* Tablet */
+
+@media (min-width: 768px) {
+
+  .secondary-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .regular-stats {
+    margin-right: 10px;
+  }
+
+  .playoff-stats {
+    margin-left: 10px;
+  }
+
+.prior-seasons button {
+    margin: initial;
+  }
+
+}
+
+/* End Tablet */
+
+/* Desktop */
+
+@media (min-width: 1025px) {
+
+}
+
+/* End Desktop */
