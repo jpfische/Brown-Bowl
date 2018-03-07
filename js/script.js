@@ -1,3 +1,4 @@
+
 // Script to make the dropdown work
 
 function dropDown() {
@@ -11,6 +12,7 @@ function dropDown() {
 
 // Script to make the button reveal text in recap
 
-function showMore(){
-
+function myFunction() {
+    var element = document.getElementById("toggle");
+    element.classList.remove("hidden");
 }

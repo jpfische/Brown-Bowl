@@ -25,10 +25,31 @@ tr:nth-child(odd) {
 
 @media (min-width: 768px) {
 
+/* League Records Start */
+
+.records {
+  display: flex;
+}
+
+.regular-season-records {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.playoff-records {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+
+/* League Records End */
+
   .secondary-content {
     display: flex;
     justify-content: space-between;
   }
+
+/* Stats Start */
 
   .regular-stats {
     margin-right: 10px;
@@ -37,6 +58,8 @@ tr:nth-child(odd) {
   .playoff-stats {
     margin-left: 10px;
   }
+
+/* Stats End */
 
 .prior-seasons button {
     margin: initial;

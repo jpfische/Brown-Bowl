@@ -52,6 +52,10 @@ td {
   text-align: center;
 }
 
+.hidden {
+  display: none;
+}
+
 /* Nav Bar */
 
 .topnav {
