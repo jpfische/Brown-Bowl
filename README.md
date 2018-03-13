@@ -1,23 +1,27 @@
-# CodeLou_FrontEnd
+## CodeLou_FrontEnd
+```
 
 ## Description
 ```
 
 This website is a simple project designed to help a fantasy football league I am apart of keep track of things throughout the year easier.  You can look back at past year's drafts 
-along with player records and news updates.function name ex( animate()
+along with player records and news updates.
 
 
 
 ## Custom CSS Classes
 ```
+
 The class(es) I created are:
 
-1.
+1. .main-content.  This sytles the content of the page, depending on the 
+size of the screen.
 
-2.
+2. .col.  This styles individual columns within the main content section 
+for uniformity between content and pages.
 
-
-3.
+3. .playoffs.  This styles within a standings column to change the 
+background color depending on the position in table.
 
 There are many more, but I've only included three in the README.
 
@@ -26,6 +30,8 @@ There are many more, but I've only included three in the README.
 ```
 The javascript functions I created are:
 
-1.
+1. A dropdown function, that when the user is in a mobile browser, 
+collapses the menu that can expand on a button press.
 
-2.
+2. A hidden button, the when clicked, displays additional content within 
+a section.
