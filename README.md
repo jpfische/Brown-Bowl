@@ -6,7 +6,7 @@
 
 This website is a simple project designed to help a fantasy football league I am apart of keep track of things throughout the year easier.  You can look back at past year's drafts 
 along with player records and news updates.
-
+```
 
 
 ## Custom CSS Classes
@@ -24,7 +24,7 @@ for uniformity between content and pages.
 background color depending on the position in table.
 
 There are many more, but I've only included three in the README.
-
+```
 
 ## Custom JavaScript Functions
 ```
@@ -35,3 +35,4 @@ collapses the menu that can expand on a button press.
 
 2. A hidden button, the when clicked, displays additional content within 
 a section.
+```
