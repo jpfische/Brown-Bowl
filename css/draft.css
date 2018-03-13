@@ -167,6 +167,11 @@ sup {
 
 @media (min-width: 1025px) {
 
+  .main-content {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
 }
 
 /* End Desktop */

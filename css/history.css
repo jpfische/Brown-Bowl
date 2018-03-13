@@ -17,6 +17,11 @@ tr:nth-child(odd) {
 
 @media (min-width: 300px) {
 
+.history-buttons button {
+  width: 100%;
+  margin: 10px;
+}
+
 }
 
 /* End Cell Phones */
@@ -41,7 +46,6 @@ tr:nth-child(odd) {
   margin-left: 10px;
 }
 
-
 /* League Records End */
 
   .secondary-content {
@@ -61,11 +65,18 @@ tr:nth-child(odd) {
 
 /* Stats End */
 
-.prior-seasons button {
-    margin: initial;
-  }
+/* Past Seasons Start */
 
+.history-buttons {
+  display: flex;
 }
+
+.history-buttons button {
+  flex-direction: row;
+  margin: 5px;
+}
+
+/* Past Seasons End */
 
 /* End Tablet */
 

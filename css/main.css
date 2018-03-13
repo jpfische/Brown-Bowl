@@ -277,6 +277,11 @@ body {
   height: 100vh;
 }
 
+.main-content {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 .topnav {
     display: flex;
     position: fixed;
