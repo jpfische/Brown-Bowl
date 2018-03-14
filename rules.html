@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brown Bowl Fantasy Football League</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/rules.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+</head>
+
+<body>
+
+<!--Navigation Bar-->
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="2018.html">2018</a>
+  <a href="draft.html">Draft</a>
+  <a href="history.html">History</a>
+  <a href="rules.html">Rules</a>
+  <a href="">Members</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="dropDown()">&#9776;</a>
+</div>
+
+<div class="wrapper">
+
+<!--Main Banner-->
+
+  <div class="banner">
+    <img class="top-photo" src="img/banner.png" >
+      <a target="blank" href = "http://games.espn.com/ffl/leagueoffice?leagueId=51701&seasonId=2017">
+        <img class="espn" src="img/espn.png" alt="ESPN Site Link">
+      </a>
+	</div>
+
+<!--Page Content-->
+
+	<div class="main-content">
+
+<!--Rules -->
+
+    <div class="rules col">
+			<h1>League Rules</h1>
+      <h4>Entry Fee</h4>
+        <p>$75</p>
+        <p>Payable at draft</p>
+        <p>Playoff Winner will receive $825 until Bozell finds a new place of employement that allows gambling.</p>
+      <h4>Trades</h4>
+        <p>Allowed, including draft picks and future draft picks</p>
+        <p>Trades can be made from the end of the draft lottery up until the trade deadline annualy.</p>
+      <h4>Keepers</h4>
+        <p>You can each pick two player from last year's roster at the spot they were drafted or if a waiver wire pickup, round 16. A player once before they go back to the draft pool</p>
+      <h4>FAAB</h4>
+        <p>$250 Starting Budget</p>
+        <p>Additional FAAB may be purchased for real cash that will be put towards beer at the draft</p>
+    </div>
+
+    <div class="secondary-content">
+
+<!-- Lottery System -->
+
+		<div class="lottery col">
+			<h2>Lottery System</h2>
+        <h4>Format</h4>
+          <p>
+            To determine the winner, fourteen ping pong balls numbered 1–14 are placed in a standard lottery machine and four balls are randomly selected from the lot. Just as in most traditional lotteries, the order in which the numbers are drawn is not important. That is, 1–2–3–4 is considered to be the same as 4–3–2–1. There are a total of 1,001 combinations (or 14! / (10! x 4!)). Of these combinations, one outcome is disregarded and the remaining outcomes are distributed among the 4 non-playoff teams.
+          </p>
+        <h4>Seeding</h4>
+          <p>
+            Seeded 1-4 in reverse order of last year’s standings.
+          </p>
+          <p>
+            <i>Example : 9th Place Finisher is Seed 1, 12th Place Finisher is Seed 4</i>
+          </p>
+        <h4>Determination</h4>
+          <p>
+            Lottery is only to award 1st overall pick.  The Following picks (2-4) will be distributed passed off seeding.  Highest remaining seed would get next pick.
+          </p>
+          <p>
+            <i>Example :  Seed 2 wins Lottery.  Pick 2 would go to Seed 1, Pick 3 to Seed 3, Pick 4 to Seed 4.</i>
+          </p>
+        <h4>Odds</h4>
+          <p>
+            Seed 1: 50% (1-500 Combinations)
+          </p>
+          <p>
+            Seed 2: 30% (501-801 Combinations)
+          </p>
+          <p>
+            Seed 3: 20% (802-902 Combinations)
+          </p>
+          <p>
+            Seed 4: 10% (903-1001 Combinations)
+          </p>
+        <h4>Combinations</h4>
+          <a href="https://docs.google.com/document/d/1KyR3sSisJ6sf_gMBjt2dbJL_kbR2iWZfGJdCbZXbubE/edit?usp=sharing">Link to Numbered Combinations</a>
+        <img class="lottery-photo" src="img/lottery.png" />
+    </div>
+
+<!-- Scoring -->
+
+		<div class="scoring col">
+			<h2>Scoring System</h2>
+      <div>
+        <h4>Passing</h4>
+        <table>
+          <tr>
+            <td>Passing Yards</td>
+            <td>&nbsp0.04</td>
+          </tr>
+          <tr>
+            <td>TD Pass</td>
+            <td>&nbsp4</td>
+          </tr>
+          <tr>
+            <td>Interceptions Thrown</td>
+            <td>-2</td>
+          </tr>
+          <tr>
+            <td>2 Pt Passing Conversion</td>
+            <td>&nbsp2</td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <h4>Rushing</h4>
+        <table>
+          <tr>
+            <td>Rushing Yards</td>
+            <td>&nbsp0.1</td>
+          </tr>
+          <tr>
+            <td>TD Rush</td>
+            <td>&nbsp6</td>
+          </tr>
+          <tr>
+            <td>2 Pt Rushing Conversion</td>
+            <td>&nbsp2</td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <h4>Receiving</h4>
+        <table>
+          <tr>
+            <td>Reception</td>
+            <td>&nbsp1</td>
+          </tr>
+          <tr>
+            <td>Receiving Yards</td>
+            <td>&nbsp0.1</td>
+          </tr>
+          <tr>
+            <td>Receiving Rush</td>
+            <td>&nbsp6</td>
+          </tr>
+          <tr>
+            <td>2 Pt Rushing Conversion</td>
+            <td>&nbsp2</td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <h4>Miscellaneous</h4>
+        <table>
+          <tr>
+            <td>Return TD</td>
+            <td>&nbsp6</td>
+          </tr>
+          <tr>
+            <td>Fumble Lost</td>
+            <td>-2</td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <h4>Defense/Special Teams</h4>
+        <table>
+          <tr>
+            <td>Sack</td>
+            <td>&nbsp1</td>
+          </tr>
+          <tr>
+            <td>Fumble Recovery</td>
+            <td>&nbsp2</td>
+          </tr>
+          <tr>
+            <td>Interception</td>
+            <td>&nbsp2</td>
+          </tr>
+          <tr>
+            <td>Blocked Kick</td>
+            <td>&nbsp2</td>
+          </tr>
+          <tr>
+            <td>Return TD</td>
+            <td>&nbsp6</td>
+          </tr>
+          <tr>
+            <td>Safety</td>
+            <td>&nbsp1</td>
+          </tr>
+          <td>2PT Return</td>
+          <td>&nbsp2</td>
+        </tr>
+          <tr>
+            <td>Points Allowed 0</td>
+            <td>&nbsp5</td>
+          </tr>
+          <tr>
+            <td>Points Allowed 1-6</td>
+            <td>&nbsp4</td>
+          </tr>
+          <tr>
+            <td>Points Allowed 7-13</td>
+            <td>&nbsp3</td>
+          </tr>
+          <tr>
+            <td>Points Allowed 14-17</td>
+            <td>&nbsp1</td>
+          </tr>
+          <tr>
+            <td>Points Allowed 28-34</td>
+            <td>-1</td>
+          </tr>
+          <tr>
+            <td>Points Allowed 35-45</td>
+            <td>-3</td>
+          </tr>
+          <tr>
+            <td>Points Allowed 46+</td>
+            <td>-5</td>
+          </tr>
+          <tr>
+            <td>Yards Allowed 0-99</td>
+            <td>&nbsp5</td>
+          </tr>
+          <tr>
+            <td>Yards Allowed 100-199</td>
+            <td>&nbsp3</td>
+          </tr>
+          <tr>
+            <td>Yards Allowed 200-299</td>
+            <td>&nbsp2</td>
+          </tr>
+          <tr>
+            <td>Yards Allowed 350-399</td>
+            <td>-1</td>
+          </tr>
+          <tr>
+            <td>Yards Allowed 400-449</td>
+            <td>-3</td>
+          </tr>
+          <tr>
+            <td>Yards Allowed 450-499</td>
+            <td>-5</td>
+          </tr>
+          <tr>
+            <td>Yards Allowed 500-549</td>
+            <td>-6</td>
+          </tr>
+          <tr>
+            <td>Yards Allowed 550+</td>
+            <td>-7</td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <h4>Kicking</h4>
+        <table>
+          <tr>
+            <td>PAT Made</td>
+            <td>&nbsp1</td>
+          </tr>
+          <tr>
+            <td>FG Made 0-39 yards</td>
+            <td>&nbsp3</td>
+          </tr>
+          <tr>
+            <td>FG Made 40-49 yards</td>
+            <td>&nbsp4</td>
+          </tr>
+          <tr>
+            <td>FG Made 50+ yards</td>
+            <td>&nbsp5</td>
+          </tr>
+          <tr>
+            <td>FG Missed</td>
+            <td>-1</td>
+          </tr>
+        </table>
+      </div>
+		</div>
+
+	</div>
+
+</div>
+</div>
+
+<!--Footer-->
+
+	<footer class="main-footer">
+		<span>&copy;2018 JP Fischer - Commissioner</span> <!--to contact, fischer.johnp@gmail.com-->
+	</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

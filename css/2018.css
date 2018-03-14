@@ -65,12 +65,12 @@ h4 {
 
 /* Start Keepers */
 
-h4 {
+.keepers h4 {
   font-size: .8em;
   text-align: left;
 }
 
-.keepers1 p {
+.keepers p {
   font-size: .8em;
 }
 
@@ -79,6 +79,10 @@ h4 {
 .keepers3,
 .keepers4 {
   column-count: 3;
+}
+
+.keepers-2017 li {
+  font-size: .8em;
 }
 
 /* End Keepers */

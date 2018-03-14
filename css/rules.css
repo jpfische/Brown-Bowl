@@ -1,0 +1,94 @@
+/* Start Page Styles */
+
+h4 {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Scoring Styles */
+
+table {
+  margin: 15px;
+}
+
+tr,
+td {
+  border: none;
+}
+
+.scoring table {
+  border: none;
+}
+
+.scoring table tr td {
+  text-align: left;
+}
+
+.scoring table tr td:nth-child(2) {
+  text-align: left;
+}
+
+/* End Scoring Styles */
+
+/* End Page Styles */
+
+/* Start Media Queries */
+
+/* Cell Phone */
+
+@media (min-width: 300px) {
+
+.lottery-photo {
+  display: none;
+}
+
+}
+
+/* End Cell Phone */
+
+/* Tablet */
+
+@media (min-width: 768px) {
+
+
+/* Rules Styles */
+
+/* End Rules Styles */
+
+/* lottery Styles */
+
+.lottery {
+  margin-right: 10px;
+}
+
+.lottery-photo {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 50%;
+}
+
+/* End Lottery Styles */
+
+/* Scoring Styles */
+
+.scoring {
+  margin-left: 10px;
+}
+
+}
+
+/* End Scoring Styles */
+
+/* End Tablet */
+
+/* Desktop */
+
+@media (min-width: 1025px) {
+
+}
+
+
+/* End Desktop */
