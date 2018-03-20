@@ -26,6 +26,7 @@
   }
 
   .member-buttons button {
+    flex-direction: column;
     margin: 5px;
   }
 
