@@ -1,0 +1,43 @@
+/* Start Page Styles */
+
+/* End Page Styles */
+
+/* Start Media Queries */
+
+/* Cell Phone */
+
+@media (min-width: 300px) {
+
+  .member-buttons button {
+    width: 100%;
+    margin: 10px;
+  }
+
+}
+
+/* End Cell Phone */
+
+/* Tablet */
+
+@media (min-width: 768px) {
+
+  .member-buttons {
+    display: flex;
+  }
+
+  .member-buttons button {
+    margin: 5px;
+  }
+
+}
+
+/* End Tablet */
+
+/* Desktop */
+
+@media (min-width: 1025px) {
+
+}
+
+
+/* End Desktop */
